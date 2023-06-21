@@ -70,6 +70,7 @@ public class ReservationServices implements IReservationServices{
         // Create a font for the chunks
             Font font = FontFactory.getFont(FontFactory.COURIER, 12);
 
+            
             // Create a paragraph for each field value
             Paragraph idParagraph = new Paragraph("id: " + reservation.getId(), font);
             Paragraph travelRequestIdParagraph = new Paragraph("travelRequestId: " + reservation.getTravelRequestId(), font);
